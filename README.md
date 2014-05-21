@@ -1,6 +1,7 @@
 # SeparateDatetime
 
-TODO: Write a gem description
+This gem helps you to get the separate date, and time components out of a datetime string such as ` "2014-05-22T07:30:00" `
+
 
 ## Installation
 
@@ -18,7 +19,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The gem adds two methods to the String Class, "generate_date" and "generate_time".
+```
+"2014-05-22T07:30:00".generate_date
+
+Will return "May 22, 2014"
+
+"2014-05-22T07:30:00".generate_time
+
+Will return "07:30"
+
+"2014-05-22T22:30:00".generate_time
+
+Will return "10:30 PM"
+```
+
 
 ## Contributing
 

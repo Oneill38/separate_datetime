@@ -21,7 +21,7 @@ class String
     if hour.to_i >= 13
       hour = hour.to_i - 12
       time.slice!(0..1)
-      time = (hour).to_s + time + " PM "
+      time = (hour).to_s + time + " PM"
     end
     return time
   end
