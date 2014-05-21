@@ -1,5 +1,7 @@
 # SeparateDatetime
 
+[![Build Status](https://travis-ci.org/Oneill38/separate_datetime.svg?branch=master)](https://travis-ci.org/Oneill38/separate_datetime)
+
 This gem helps you to get the separate date, and time components out of a datetime string such as ` "2014-05-22T07:30:00" `
 
 
