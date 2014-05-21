@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Oneill38"]
   spec.email         = ["megan.oneill38@gmail.com"]
   spec.summary       = %q{Splits a datetime string, into separate date and time strings}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.description   = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
 
